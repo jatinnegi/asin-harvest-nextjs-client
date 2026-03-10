@@ -156,7 +156,7 @@ export default function () {
 
       if (data?.reduced) {
         toast.message(
-          "Due to hardware limitations only the first 10 ASINs be retrieved.",
+          "Due to hardware limitations only the first 10 ASINs will be retrieved.",
         );
       }
 
