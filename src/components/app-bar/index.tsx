@@ -1,3 +1,4 @@
+import { DemoButton } from "./demo-button";
 import { ModeToggle } from "./mode-toggle";
 import Link from "next/link";
 
@@ -13,7 +14,10 @@ export function AppBar() {
             ASIN Harvest
           </Link>
         </section>
-        <ModeToggle />
+        <section className="flex items-center gap-6">
+          <DemoButton />
+          <ModeToggle />
+        </section>
       </nav>
     </header>
   );
